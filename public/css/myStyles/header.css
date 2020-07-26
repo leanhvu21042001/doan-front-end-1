@@ -1,7 +1,12 @@
+::selection {
+  background-color: #e73333;
+  color: #fff;
+}
 /* Menu top */
 .sticky-header {
   position: fixed;
   width: 100%;
+  z-index: 10;
 }
 #header-wrap::before {
   content: '';

@@ -8,3 +8,9 @@ footer#footer {
 .copyright-links a {
   margin: 0 10px;
 }
+
+@media (max-width: 550px){
+  footer {
+    text-align: center;
+  }
+}

@@ -1,0 +1,11 @@
+/* color: rgba(255,255,255,0.5); */
+footer#footer {
+  font-size: 14px;
+}
+.copyright-links,
+.copyright-links a  {
+  color: rgba(255,255,255,0.5);
+}
+.copyright-links a {
+  margin: 0 10px;
+}

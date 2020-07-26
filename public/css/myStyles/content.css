@@ -20,6 +20,10 @@
 .col-mb-50>[class*=col-] {
   padding-bottom: 50px;
 }
+.col-mb-30>.col,
+.col-mb-30>[class*=col-] {
+  padding-bottom: 30px;
+}
 .media-box .fbox-media {
   margin: 0 0 1.5rem;
 }
@@ -224,11 +228,145 @@ img {
   color: #fff;
   transition: .7s ease;
 }
-
+/* section 6 */
 .wrap--img {
   background-image: url(../../images/section/3.jpg);
   background-size: cover;
   background-position: center center;
+}
+.ls2 {
+  letter-spacing: 2px!important;
+}
+.team-desc {
+  text-align: center;
+}
+.team-title {
+  padding-top: 20px;
+}
+.team-title span {
+  color: #aaa;
+  font-weight: none !important;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.team-title h4 {
+  font-size: 15px;
+  display: block;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.team-desc p {
+  color: #555;
+  font-size: 1rem;
+}
+.entry-meta ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+}
+.entry-meta ul li:nth-child(1) {
+  display: inline-block;
+}
+.entry-meta ul li:nth-child(1)::after {
+  content: '\205E';
+  width: 5px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 17px;
+  opacity: .5;
+}
+.entry-meta ul li:nth-child(2) {
+  margin-left: 15px;
+  display: inline-block;
+}
+.entry-meta ul li a:hover {
+  color: #333;
+}
+.entry-title h2.mb-0{
+  font-size: 1rem;
+  letter-spacing: 0;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.entry-title h2.mb-0 a:hover {
+  color: #e7272d;
+}
+/* section 7 */
+.entry {
+  margin: 0;
+  box-shadow: 0 0 15px 2px rgba(0,0,0,0.08);
+}
+.entry-title {
+  background-color: #FFF;
+}
+.entry-image {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.entry-meta a:not(:hover) {
+  color: #999;
+}
+.entry-title h2 a {
+  color: #333;
+}
+/* section 8 */
+.bottommargin-sm {
+  text-align: center;
+  margin-bottom: 2rem !important;
+}
+.bottommargin-sm h3 {
+  color: #444;
+  margin: 20px 0 30px;
+}
+
+.bottommargin-sm span.font-primary {
+  color: #555;
+  
+}
+
+/* section 9 */
+.i-plain {
+  width: 64px!important;
+  height: 64px!important;
+  font-size: 56px;
+  line-height: 64px!important;
+  cursor: pointer;
+}
+.social-icon {
+  height: 38px;
+  width: 38px;
+  border-radius: 5px;
+  margin: 0 4px;
+}
+.social-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none !important;
+}
+.social-icon i{
+  color: black;
+  font-size: 20px;
+}
+.social-icon:hover>i {
+  color: #fff;
+}
+.si-facebook:hover{
+  background-color: #053262;
+}
+.si-twitter:hover{
+  background-color: rgb(10, 178, 235);
+}
+.si-youtube:hover{
+  background-color: #dc3545;
+}
+.si-email:hover{
+  background-color: #6f42c1;
 }
 
 @media (max-width: 991.98px){

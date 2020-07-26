@@ -285,7 +285,7 @@ img {
 .entry-title h2.mb-0{
   font-size: 1rem;
   letter-spacing: 0;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.5;
   margin-top: 10px;
 }
@@ -296,6 +296,7 @@ img {
 .entry {
   margin: 0;
   box-shadow: 0 0 15px 2px rgba(0,0,0,0.08);
+  height: 100%;
 }
 .entry-title {
   background-color: #FFF;
